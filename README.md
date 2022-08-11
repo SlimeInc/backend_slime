@@ -22,3 +22,5 @@ npx hardhat
 ```
 npx hardhat test
 ```
+
+![test-success](/backend_slime/smart_contract/img/test-success.png)
