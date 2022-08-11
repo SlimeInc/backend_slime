@@ -39,5 +39,8 @@ contract CryptoTransactions {
     }
 
 
-    
+    //return number of transactions
+    function getTransactionCount() public view returns (uint256) {
+        return transactionCount;
+    }
 }
