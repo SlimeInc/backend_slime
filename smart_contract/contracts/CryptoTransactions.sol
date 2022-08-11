@@ -33,5 +33,11 @@ contract CryptoTransactions {
 
     }
 
+    //returns transactions
+    function getAllTransactions() public view returns (TransferStruct[] memory) {
+        return transactions;
+    }
+
+
     
 }
