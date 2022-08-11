@@ -20,5 +20,7 @@ contract CryptoTransactions {
         string keyword;
     }
 
+    TransferStruct[] transactions;// an array of all transactions
+
     
 }
