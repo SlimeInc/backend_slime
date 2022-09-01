@@ -21,7 +21,8 @@ const main = async () => {
 
   // console.log("Lock with 1 ETH deployed to:", lock.address);
   
-  await lock.deployed();
+  const CryptoTransactions = await hre.ethers.getContractFactory("CryptoTransactions");
+  const transactions = await CryptoTransactions.deploy();
 
   console.log("Lock with 1 ETH deployed to:", lock.address);
 }
