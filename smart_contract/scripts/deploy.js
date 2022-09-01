@@ -28,8 +28,8 @@ const main = async () => {
   console.log("Transactions deployed to: ", transactions.address); 
 }
 
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
+
+
 const runMain = async () => {
   try {
     await main();
