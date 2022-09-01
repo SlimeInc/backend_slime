@@ -24,7 +24,8 @@ const main = async () => {
   const CryptoTransactions = await hre.ethers.getContractFactory("CryptoTransactions");
   const transactions = await CryptoTransactions.deploy();
 
-  console.log("Lock with 1 ETH deployed to:", lock.address);
+  await transactions.deploy();
+  console.log("Transactions deployed to: ", transactions.address); 
 }
 
 // We recommend this pattern to be able to use async/await everywhere
