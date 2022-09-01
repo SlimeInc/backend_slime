@@ -24,7 +24,7 @@ const main = async () => {
   const CryptoTransactions = await hre.ethers.getContractFactory("CryptoTransactions");
   const transactions = await CryptoTransactions.deploy();
 
-  await transactions.deploy();
+  await transactions.deployed();
   console.log("Transactions deployed to: ", transactions.address); 
 }
 
