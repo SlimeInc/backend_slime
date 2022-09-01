@@ -17,7 +17,7 @@ const main = async () => {
   // const Lock = await hre.ethers.getContractFactory("Lock");
   // const lock = await Lock.deploy(unlockTime, { value: lockedAmount });
 
-  const lockedAmount = hre.ethers.utils.parseEther("1");
+  // await lock.deployed();
 
   // console.log("Lock with 1 ETH deployed to:", lock.address);
   
