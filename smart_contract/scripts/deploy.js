@@ -7,7 +7,7 @@ const main = async () => {
   console.log("Transactions deployed to: ", transactions.address); 
 }
 
-
+//address transactions was deployed to: 0xD2CC21a27ad2E773e4E2D2fae570DaC5C0f81727
 
 const runMain = async () => {
   try {
